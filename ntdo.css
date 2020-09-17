@@ -48,111 +48,81 @@ table {
 }
 
 
-/* ------------------------------- Mon CSS --------------------------------------*/
+/* ------------------------------- My CSS --------------------------------------*/
 
-.container{
+.images-container{
     
-    border : 0.1rem solid  lightgrey;
-    /* height: 700px; */
-    background-color:red;
-    max-width: 60%;
-    padding: 1%;
+    /* border : 0.1rem solid  lightgrey;*/
+    /* background-color:red; */
+    max-width: 67%;
 
     display: flex;
-    /* flex-direction: column; */
+    /* flex-direction: row; */
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 
 .items{
-    
-    border: 0.1rem solid;
-    
-    /* border-radius: 15px; */
-    margin: 1% 0%;
-    /* background-color :lightblue; */
     text-align: center;
     align-items: center;
-    color: grey;
-    /* max-width: 30%;
-    max-height: 44,4444444%; */
-    
-    /* width: 33.333%;
-    height: 50%; */
+    margin: 0.2%;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
-
-    
+    justify-content: space-between;    
 }
 
 img{
     height:100%;
     width:100%;
-    /* max-width: 200px;
-    max-height: 150px; */
-    border-radius: 15px;
-
+    border-radius: 5px;
 }
 
 .h-half-container{
-    background-color: pink;
-    max-width: 48%;
-    /* max-width: 48%;
-    max-height: 100px; */
-}
-.square{
-    background-color: blue;
-    max-width: 31.3%;
-    max-height: 44,4444444%;
+    max-width: 49.6%;
 }
 
-.half-square{
-    background-color: chartreuse;
-    /* max-width: 30%;
-    max-height: 50%; */
-    max-width: 100%;
-    max-height: 100%;
-    
-    
+.square{
+    max-width: 32.93%; 
+}
+
+.half-square-container{
+    max-width: 33.05%;
+    margin: 0.15%;
 }
 
 .h-double-square{
-    background-color: darkmagenta;
-    max-width: 63%;
-    max-height: 44,4444444%;
+    max-width: 66.2012222222%;
 }
 
 .v-double-square{
-    background-color: brown;
-    max-width: 30%;
-    max-height: 44,4444444%;
-}
-
-.banner{
-    background-color: white;
-    max-width: 100%;
-    max-height: 44,4444444%;
-}
-
-#item19 #item20 #item21 #item12 #item13 #item14{
-    max-width: 100%;
+    max-width: 32.925%;
 }
 
 .double-items{
-    background-color: darkolivegreen;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
 
-    max-width: 67%;
+    margin : 0.1% 0.05% 0.1% 0.1%;
+    max-width: 66.515%;
 }
 
-/* .item11{
-    background:url(https://cdn.pixabay.com/photo/2017/02/22/17/02/beach-2089936_1280.jpg) 0px;
-    height: 400px;
-} */
+#item19, #item20, #item12, #item13{
+    margin-top: 0.15%;
+    max-width: 49.5%;
+}
+#item21, #item14{
+    max-width: 99.55%;
+    margin-top: 0.3%;
+}
+
+#item6{
+    margin-bottom: 0.7%;
+}
+
+#item7{
+    margin-top: 0.7%;
+}
+
