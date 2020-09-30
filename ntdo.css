@@ -1,5 +1,8 @@
 @charset "utf-8";
-/* CSS Document */
+
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------- RESET --------------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
 * {box-sizing:border-box;}
 
@@ -47,21 +50,67 @@ table {
 	border-spacing: 0;
 }
 
+/* ----------------------------------------------------------------------------- */
+/* ------------------------------- My CSS -------------------------------------- */
+/* ----------------------------------------------------------------------------- */
 
-/* ------------------------------- My CSS --------------------------------------*/
+/* ------------------------------ All page ------------------------------------- */
 
+a{
+    text-decoration: none;
+}
+
+/* ------------------------------ Navbars -------------------------------------- */
+
+.icon{
+    color:  #FFFFFF;
+}
+
+/* ---------------------------- Main navbars ----------------------------------- */
+
+.princ-nav-container{
+    position: fixed;
+    width: 100%;
+}
 
 .princ-nav{
     background-color: #18391E;
-    padding: 1% 0.5% 1% 1.75%;
+    padding: 15px 0.5% 15px 1.75%;
     border-bottom:1px solid #102715;
-}
 
-.princ-nav-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.logo{
+    /* background-color: red; */
+    width: 125px;
+    height: 41px;
+}
+
+.tools-menu{
+    padding : 0.5%;
+    /* background-color: brown; */
+    min-width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search-icon, #shopping-cart-icon{
+    /* background-color: chartreuse; */
+    border-right: 1px solid #FFFFFF;
+    padding-right: 12.5%;
+}
+
+.connexion{
+    font-size : 0.55rem;
+    font-family: 'Roboto', sans-serif;font-weight:700;
+}
+
+/* ---------------------------- Aside navbars ---------------------------------- */
 
 .aside-nav-item{
     border-bottom:1px solid #102715;
@@ -71,14 +120,18 @@ table {
     padding: 10% 0%;
 }
 
-.tools-menu{
-    padding : 0.5%;
-    background-color: brown;
-    min-width: 20%;
+.aside-nav{
+    width: 90px;
+    max-height: 100vh;    
+    min-height: 100vh;
+    margin-top: 72px;    
+    background-color: #102715;
+
+    position: fixed;    
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
 }
 
 .legende-logo{
@@ -87,52 +140,22 @@ table {
     padding-top: 10%;
 }
 
-.connexion{
-    font-size : 0.55rem;
-    font-family: 'Roboto', sans-serif;font-weight:700;
-}
-
-.aside-nav{
-    width: 90px;
-    background-color: #102715;    
-
-    display: flex;
-    flex-direction: column;
-
-    text-align: center;
-}
-
-.icon{
-    color:  #FFFFFF;
-}
-
-#search-icon, #shopping-cart-icon{
-    /* background-color: chartreuse; */
-    border-right: 1px solid #FFFFFF;
-    padding-right: 12.5%;
-}
-
-a{
-    text-decoration: none;
-}
-
-.logo{
-    background-color: red;
-    width: 125px;
-    height: 70px;
-}
-
+/* --------------------------------- Main -------------------------------------- */
 
 .main{
     display: flex;
     flex-direction: row;
 }
 
+/* ---------------------------- Images container ---------------------------------- */
+
 .images-container{
     
     /* border : 0.1rem solid  lightgrey;*/
     /* background-color:red; */
     max-width: 67%;
+    margin-top: 72px;
+    margin-left: 90px;
 
     display: flex;
     /* flex-direction: row; */
@@ -203,3 +226,5 @@ img{
 #item7{
     margin-top: 0.7%;
 }
+
+/* --------------------------- Articles container --------------------------------- */
