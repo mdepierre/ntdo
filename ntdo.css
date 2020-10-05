@@ -107,7 +107,7 @@ a{
 
 .connexion{
     font-size : 0.55rem;
-    font-family: 'Roboto', sans-serif;font-weight:700;
+    font-family: 'Roboto', sans-serif;font-weight:300;
 }
 
 /* ---------------------------- Aside navbars ---------------------------------- */
@@ -136,7 +136,7 @@ a{
 
 .legende-logo{
     font-size : 0.7rem;
-    font-family: 'Roboto', sans-serif;font-weight:700;
+    font-family: 'Roboto', sans-serif;font-weight:500;
     padding-top: 10%;
 }
 
@@ -153,6 +153,7 @@ a{
     
     /* border : 0.1rem solid  lightgrey;*/
     /* background-color:red; */
+    background-color: lightgrey;
     max-width: 67%;
     margin-top: 72px;
     margin-left: 90px;
@@ -228,3 +229,62 @@ img{
 }
 
 /* --------------------------- Articles container --------------------------------- */
+
+.article-container {
+    background-color: #D8DFE3;
+    color:#303030;
+    margin-top: 72px;
+
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.news-box{
+    background-color: #FFFFFF;
+    margin:1% 0 0 0.5%;
+}
+
+.image-article{
+    max-width: 22.5%;
+    margin: 1%;
+}
+
+.news-display{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+
+    font-size : 0.55rem;
+    font-weight:500;
+}
+
+.text-article{
+    margin: 2%;
+    line-height: 1rem;
+}
+
+.last-news{
+    padding: 5%;
+    font-size:1rem;
+    font-weight:500;
+}
+
+.title-article {
+    font-size: 1rem;
+    font-weight:500;
+}
+
+.details-article{
+    font-size: 0.6rem;
+    font-weight:300;
+    color:#A9A9A9;
+}
+
+.description-article{
+    font-size: 0.8rem;
+    font-weight:300;
+    color:#696969;
+}
